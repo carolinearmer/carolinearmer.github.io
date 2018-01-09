@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+	<!--metadata for the home page-->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="keywords" content="maps, cartography, photography"/>
+	<title>CarolineArmer</title>
+	<!--Bootstrap stylesheet and style css links-->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/fontstylesheet.css" type="text/css" charset="utf-8"/>
+</head>
+
+
+<body>
+	<!--external script links here-->
+	<script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+	
+
+	<!--navigation bar element-->
+	<nav class="navbar navbar-default main-navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">CAROLINE ARMER</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="portfolio.html">MAPS</a></li>
+					<li><a href="photography.html">PHOTOGRAPHY</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="resume.html">RESUME</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--map image element-->
+	<div class="container-fluid container-choropleth">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+				<div class="thumbnail thumbnail-choro">
+					<img src="assets/Armer_Choropleth.png"/>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-5 col-sm-8 col-xs-12" id="choroplethdesc">
+				<h4>eBIRD BIVARIATE CHOROPLETH MAP</h4>
+				<p>For this map I wanted to see whether there are any interesting demographic trends among birders in my home state. I used eBird checklist submission data from 2010, as well as the percentage of each county's population living in urbanized areas. I normalized the checklist data by each county's population and created three classes for degree of urbanization and number of checklists submitted. I got a lot of help on creating a readable color scheme and legend design from <a target="_blank" href="http://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/">this tutorial</a> (thanks Joshua!).<br/><br/><a href="isoline.html">NEXT</a></p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

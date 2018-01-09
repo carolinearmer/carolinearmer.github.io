@@ -1,0 +1,351 @@
+/**Navbar styling**/  /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.navbar-default { 
+  	background-color:#ffffff;
+  	border-width:0px;
+  	background-image:none;
+  	box-shadow:none;
+}
+
+.navbar-default .navbar-brand { 
+	margin-top:60px;
+	margin-bottom:20px;
+	padding-left:60px;
+	font-family:'proximanova-thin';
+	font-size:40px;
+	font-weight:bolder;
+	color:#000000;
+}
+
+.navbar-default .navbar-brand:hover { 
+	text-decoration:none;
+	color:#aa2e3c;
+}
+
+.navbar-default .navbar-nav { 
+	margin-top:65px;
+}
+
+.navbar-default .navbar-nav > li > a { 
+  	font-family:'proximanova-thin';
+  	color:#000000;
+  	font-size:13px;
+  	letter-spacing:1px;
+  	padding-right:12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover { 
+	color:#aa2e3c;
+}
+
+.navbar-header .navbar-toggle { 
+  	margin-top:70px;
+  	border-width:0px;
+}
+
+.navbar-header .navbar-toggle:hover, 
+.navbar-header .navbar-toggle:focus {
+  	background-color:#ffffff;
+  	color:#aa2e3c;
+}
+
+
+/*** Portfolio thumbnail styling ***/ /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.portfolio-thumbnail {
+	border-width:0px;
+	background-color:#ffffff;
+	box-shadow:none;
+	padding-right:35px;
+	padding-left:35px;
+	padding-top:5px;
+	padding-bottom:80px;
+	width:100%;
+	height:100%
+}
+
+.portfolio-thumbnail > img {
+	width:100%;
+	opacity:1;
+	display:block;
+	transition:0.5s ease;
+	height:auto;
+}
+
+.text_wrapper {
+	opacity:0;
+	transition:0.5s ease;
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	margin-top:-45%;
+}
+
+.portfolio-thumbnail:hover .text_wrapper {
+	opacity:1;
+}
+
+#preview:hover {
+	opacity:0.3;
+}
+
+h4 {
+	text-align:center;
+	color:black;
+	font-weight:lighter;
+}
+
+#middle {
+	font-size:20px;
+	letter-spacing:1px;
+}
+
+/***Footer styling***/ /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.navbar-default1 { 
+	background-color:#721621;
+	border-width:0px;
+    background-image:none;
+    box-shadow:none;
+    height:30px;
+}
+
+.navbar-default1 #copyright > p { 
+	font-family:'proximanova-thin';
+	font-size:13px;
+	letter-spacing:0.5px;
+	color:#ffffff;
+	margin-top:15px;
+}
+
+.navbar-default1 #soc > a > img { 
+	height:35px;
+	width:100%;
+	margin-top:8px;
+	margin-left:-20px;
+}
+
+/***Choropleth portfolio page styling***/ /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.thumbnail-choro { 
+	box-shadow:none;
+	border-width:0px;
+	background-color:#ffffff;
+	padding-right:50px;
+}
+
+.thumbnail-choro > img { 
+	margin-top:-15px;
+	margin-left:35px;
+} 
+
+.container-choropleth #choroplethdesc > h4 {  
+	margin-top:-3px;
+	font-family:'proximanova-thin';
+	font-weight:bold;
+	color:black;
+	letter-spacing:0.5px;
+	text-align:left;
+	font-size:20px;
+	margin-left:45px;
+	padding-right:20px;
+}
+.container-choropleth #choroplethdesc > p { 
+	color:#666464;
+	font-size:14px;
+	font-family:'proximanova-thin';
+	text-align:justify;
+	margin-left:45px;
+	padding-right:20px;
+}
+
+.container-choropleth #choroplethdesc > p > a { 
+	color:#666464
+}
+
+.container-choropleth #choroplethdesc > p > a:hover { 
+	text-decoration:none;
+	color:#aa2e3c;
+}
+
+/***Isoline portfolio page styling***/ /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.thumbnail-isoline { 
+	box-shadow:none;
+	border-width:0px;
+	background-color:#ffffff;
+	padding-right:50px;
+}
+
+.thumbnail-isoline > img { 
+	margin-top:-15px;
+	margin-left:35px;
+} 
+
+.container-isoline #isolinedesc > h4 {  
+	margin-top:-3px;
+	font-family:'proximanova-thin';
+	font-weight:bold;
+	color:black;
+	letter-spacing:0.5px;
+	font-size:20px;
+	text-align:left;
+	margin-left:45px;
+	padding-right:20px;
+}
+.container-isoline #isolinedesc > p { 
+	color:#666464;
+	font-size:14px;
+	font-family:'proximanova-thin';
+	text-align:justify;
+	margin-left:45px;
+	padding-right:20px;
+}
+
+.container-isoline #isolinedesc > p > a { 
+	color:#666464
+}
+
+.container-isoline #isolinedesc > p > a:hover { 
+	text-decoration:none;
+	color:#aa2e3c;
+}
+
+/***About me styling***/  /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.thumbnail-selfie { 
+	border-width:0px;
+	box-shadow:none;
+	background-color:#ffffff;
+}
+
+.thumbnail-selfie > img { 
+	margin-top:20px;
+	margin-left:30px;
+	padding-right:20px;
+	padding-left:10px;
+}
+
+.container-selfie #aboutme > h3 { 
+	font-family:'proximanova-thin';
+	font-weight:bold;
+	color:black;
+	margin-left:40px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.container-selfie #aboutme > p { 
+	color:#666464;
+	font-family:'proximanova-thin';
+	font-size:15.5px;
+	text-align:justify;
+	padding-right:10px;
+	padding-left:10px;
+	margin-left:40px;
+}
+
+.container-selfie #aboutme > p > a { 
+	font-weight:bold;
+}
+
+.container-selfie #aboutme > p > a:hover { 
+	text-decoration:none;
+	color:#aa2e3c;
+}
+
+/***Photography main page styling***/ /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.album-thumbnail {
+	border-width:0px;
+	box-shadow:none;
+	background-color:#ffffff;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-right:8px;
+	padding-left:8px;
+}
+
+.album-thumbnail > img {
+	opacity:1;
+	display:block;
+	transition:0.5s ease;
+}
+
+.text_wrapper1 {
+	opacity:0;
+	transition:0.5s ease;
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	margin-top:-20%;
+}
+
+.album-thumbnail:hover .text_wrapper1 {
+	opacity:1;
+}
+
+#preview1:hover {
+	opacity:0.3;
+}
+
+h4 {
+	text-align:center;
+	color:black;
+	font-weight:lighter;
+}
+
+#middle1 {
+	font-size:20px;
+	letter-spacing:1px;
+}
+
+/***Resume page styling***/ /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.container-resume { 
+	margin-left:55px;
+	padding-right:15px;
+}
+
+.container-resume #section > h2 { 
+	color:#aa2e3c;
+}
+
+.container-resume #description > li { 
+	margin-left:-20px;
+}
+
+.container-resume #section2 > h4 {
+	text-align:left;
+	font-weight:normal;
+}
+
+.container-resfile #resfile > h4 {
+	text-align:left;
+	font-weight:normal;
+}
+
+.container-resfile #resfile > h4 > a:hover { 
+	text-decoration:none;
+	color:#aa2e3c;
+}
+
+/***Photo album pages styling***/ /***DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE***/
+.thumbnail-photoz { 
+	box-shadow:none;
+	border-width:0px;
+	background-color:#ffffff;
+	margin-left:43px;
+	padding:top:20px;
+	padding-right:10px;
+	padding-bottom:5px;
+}
+
+.mySlides {
+	display:none;
+}
+
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;
+	height:17px;
+}
+
+.w3-left {
+	margin-left:43px;
+}
